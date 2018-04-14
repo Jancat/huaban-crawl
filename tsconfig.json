@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "module": "commonjs",
+    "target": "esnext",
+    "esModuleInterop": true,
+    "noImplicitAny": true
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ]
+}
