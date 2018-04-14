@@ -16,6 +16,8 @@ yarn
 
 ## Usage
 Input needed message and wait...
+(An average of 5 images download a second. And image lost may occur in some board.)
+
 ```shell
 yarn start
 
