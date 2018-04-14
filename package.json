@@ -1,11 +1,18 @@
 {
   "name": "huaban-crawl",
-  "version": "0.0.1",
-  "description": "A Node script to crawl HuaBan images",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Node command program to crawl 花瓣(https://huaban.com/) images",
+  "keywords": ["huban", "crawler", "node", "typescript"],
+  "homepage": "https://github.com/Jancat/huaban-crawl",
+  "bugs": "https://github.com/Jancat/huaban-crawl/issues",
+  "repository": {
+    "url": "https://github.com/Jancat/huaban-crawl",
+    "type": "git"
+  },
   "author": "Jancat",
   "license": "MIT",
   "private": false,
+  "main": "index.ts",
   "dependencies": {
     "async": "^2.6.0",
     "fs-extra": "^5.0.0",
