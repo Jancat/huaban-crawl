@@ -17,3 +17,6 @@ rules:
   no-unused-expression:
     - true
     - allow-fast-null-checks
+  no-unused-variable:
+    - true
+    - check-parameters
