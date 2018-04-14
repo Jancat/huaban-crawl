@@ -1,3 +1,11 @@
+/**
+ * @author Jancat
+ * @email 510675621@qq.com
+ * @create date 2018-04-14 12:19:03
+ * @modify date 2018-04-14 12:19:03
+ * @desc Node command program to crawl HuaBan(https://huaban.com/) images
+ */
+
 import async from 'async'
 import fs from 'fs-extra'
 import readline from 'readline'
