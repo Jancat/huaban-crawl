@@ -27,6 +27,6 @@
   },
   "scripts": {
     "lint": "tslint -c tslint.yaml '*.ts?(x)'",
-    "start": "ts-node index.ts; exit 0"
+    "start": "ts-node index.ts && exit 0"
   }
 }
