@@ -196,6 +196,7 @@ async function downloadImage(allPins: IPin[], boardPath: string): Promise<number
       rp({
         uri: image.url,
         timeout: 20 * 1000,
+        encoding: null, // make response a Buffer to write image correctly
       }).pipe(
         fs.createWriteStream(image.path).on('finish', () => {
           totalDownload++
@@ -212,6 +213,7 @@ async function downloadImage(allPins: IPin[], boardPath: string): Promise<number
     rp({
       uri: imageUrl,
       timeout: 20 * 1000,
+      encoding: null, // make response a Buffer to write image correctly
     })
       .then(data => {
         downloadCount++
