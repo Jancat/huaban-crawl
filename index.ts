@@ -198,7 +198,7 @@ async function downloadImage(allPins: IPin[], boardPath: string): Promise<number
         timeout: 20 * 1000,
       }).pipe(
         fs.createWriteStream(image.path).on('finish', () => {
-          downloadCount++
+          totalDownload++
           console.log('\x1b[32m Retry ok! \x1b[0m %s', image.url)
         }),
       )
