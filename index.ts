@@ -249,7 +249,7 @@ async function getPinsAndDownload(board: IBoard): Promise<void> {
   fs.emptyDirSync(boardPath)
 
   const downloadCount: number = await downloadImage(boardPins, boardPath)
-  const failedCount: number = missedPinsCount - (board.pin_count - downloadCount)
+  const failedCount: number = board.pin_count - downloadCount - missedPinsCount
   totalDownload += downloadCount
 
   console.log(
