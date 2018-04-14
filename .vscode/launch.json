@@ -9,7 +9,8 @@
       "request": "launch",
       "name": "Launch Program",
       "runtimeArgs": ["-r", "ts-node/register"],
-      "args": ["${workspaceFolder}/index.ts"]
+      "args": ["${workspaceFolder}/index.ts"],
+      "console": "integratedTerminal"
     }
   ]
 }
