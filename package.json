@@ -14,7 +14,7 @@
   "private": false,
   "main": "index.ts",
   "dependencies": {
-    "async": "^2.6.0",
+    "async": "^3.2.2",
     "fs-extra": "^5.0.0",
     "request": "^2.85.0",
     "request-promise": "^4.2.2",
